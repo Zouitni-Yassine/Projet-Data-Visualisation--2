@@ -1,0 +1,34 @@
+================================================================================
+RECOMMANDATIONS D'OPTIMISATION DU RÉSEAU TBM BORDEAUX
+================================================================================
+
+Date: 06/03/2026 11:09:34
+
+
+1. Optimisation temporelle
+--------------------------------------------------------------------------------
+Priorité: Haute
+Observation: L'heure de pointe (17h) connaît 129.3x plus de passages que l'heure creuse
+Recommandation: Renforcer la fréquence des transports entre 16h et 18h
+Impact attendu: Réduction de la surcharge et amélioration du confort des usagers
+
+2. Équilibrage du réseau
+--------------------------------------------------------------------------------
+Priorité: Haute
+Observation: Forte dispersion de la fréquentation (CV=1.97). Les lignes B, 31, 35 concentrent beaucoup de trafic
+Recommandation: Créer des lignes express parallèles ou augmenter la flotte sur ces lignes
+Impact attendu: Meilleure répartition de la charge et temps de trajet réduit
+
+3. Infrastructure
+--------------------------------------------------------------------------------
+Priorité: Moyenne
+Observation: L'arrêt 'Palais de Justice' est le plus fréquenté (4,516 passages)
+Recommandation: Améliorer l'infrastructure: abris supplémentaires, affichage temps réel, bancs, accessibilité
+Impact attendu: Meilleure expérience usager et fluidité accrue
+
+4. Optimisation du réseau
+--------------------------------------------------------------------------------
+Priorité: Basse
+Observation: 1014 arrêts (25.6%) sont sous-utilisés
+Recommandation: Évaluer la pertinence de ces arrêts et considérer leur suppression ou fusion
+Impact attendu: Réduction des coûts opérationnels et temps de trajet optimisé

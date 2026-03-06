@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Read(//c/Users/yassi/Desktop/Data_Vise_V2/**)"
+    ]
+  }
+}
