@@ -6,7 +6,11 @@
       "Bash(pip install:*)",
       "Bash(cat:*)",
       "Bash(ls:*)",
-      "Read(//c/Users/yassi/Desktop/Data_Vise_V2/**)"
+      "Read(//c/Users/yassi/Desktop/Data_Vise_V2/**)",
+      "Bash(read:*)",
+      "Bash(if [[ $REPLY =~ ^[Yy]$ ]])",
+      "Bash(then)",
+      "Bash(fi)"
     ]
   }
 }

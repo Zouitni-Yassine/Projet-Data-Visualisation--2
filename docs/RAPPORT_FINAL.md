@@ -71,7 +71,7 @@ Ce projet analyse les schémas de mobilité urbaine à Bordeaux à partir des do
 
 ## 4. Visualisations
 
-Les visualisations suivantes ont été générées:
+**Total: 13 visualisations générées** (8 PNG + 5 HTML)
 
 ### Visualisations statiques (PNG)
 
@@ -79,12 +79,18 @@ Les visualisations suivantes ont été générées:
 2. **Distribution horaire** - [visualisations/distribution_horaire.png](visualisations/distribution_horaire.png)
 3. **Top lignes** - [visualisations/top_lignes.png](visualisations/top_lignes.png)
 4. **Top arrêts** - [visualisations/top_arrets.png](visualisations/top_arrets.png)
+5. **Heatmap Ligne × Heure** - [visualisations/heatmap_ligne_heure.png](visualisations/heatmap_ligne_heure.png) ⭐
+6. **Scatter géographique pondéré** - [visualisations/scatter_geo_frequentation.png](visualisations/scatter_geo_frequentation.png) ⭐
+7. **Types de transport** - [visualisations/graphique_types.png](visualisations/graphique_types.png) ⭐
+8. **Distribution géographique** - [visualisations/distribution_geographique.png](visualisations/distribution_geographique.png) ⭐
 
 ### Visualisations interactives (HTML)
 
-1. **Carte interactive** - [visualisations/carte_interactive.html](visualisations/carte_interactive.html)
-2. **Dashboard horaire** - [visualisations/dashboard_horaire.html](visualisations/dashboard_horaire.html)
-3. **Dashboard lignes** - [visualisations/dashboard_lignes.html](visualisations/dashboard_lignes.html)
+1. **Carte interactive - Tous les arrêts** - [visualisations/carte_interactive_tous_arrets.html](visualisations/carte_interactive_tous_arrets.html) ⭐ (3,957 arrêts)
+2. **Carte de chaleur (Heatmap)** - [visualisations/carte_chaleur.html](visualisations/carte_chaleur.html) ⭐
+3. **Dashboard horaire** - [visualisations/dashboard_horaire.html](visualisations/dashboard_horaire.html)
+4. **Dashboard lignes** - [visualisations/dashboard_lignes.html](visualisations/dashboard_lignes.html)
+5. **Dashboard interactif Plotly** - Visualisations interactives avec exploration dynamique
 
 ---
 
@@ -145,5 +151,3 @@ Les principales conclusions sont:
 - 1014 arrêts sous-utilisés nécessitant une réévaluation
 
 ---
-
-*Rapport généré automatiquement par le système d'analyse de mobilité urbaine*

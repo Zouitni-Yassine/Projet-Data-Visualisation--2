@@ -40,43 +40,41 @@ Toutes les analyses et visualisations ont été générées avec succès à part
 ## 📁 Fichiers Générés
 
 ### 📝 Rapports et Recommandations
-- `RAPPORT_FINAL.md` - Rapport complet de l'analyse (5KB)
-- `recommandations.txt` - 4 recommandations concrètes d'optimisation (1.8KB)
-- `analysis.log` - Logs détaillés de l'exécution
+- `docs/RAPPORT_FINAL.md` - Rapport complet de l'analyse (5KB)
+- `docs/recommandations.txt` - 4 recommandations concrètes d'optimisation (1.8KB)
+- `docs/GUIDE_UTILISATION.md` - Ce guide (6.3KB)
 
 ### 📊 Visualisations Statiques (PNG - Haute Résolution)
-Toutes dans le dossier [visualisations/](visualisations/)
+**Total: 8 visualisations** dans [visualisations/](visualisations/)
 
-1. **heatmap_temporel.png** (150KB)
-   - Heatmap jour x heure de la fréquentation
-   - Identifie visuellement les périodes de forte affluence
-
-2. **distribution_horaire.png** (309KB)
-   - Courbe de distribution sur 24h
-   - Zones de rush marquées
-   - Heure de pointe identifiée
-
-3. **top_lignes.png** (173KB)
-   - Barres horizontales des 15 lignes principales
-   - Valeurs et gradient de couleur
-
-4. **top_arrets.png** (207KB)
-   - Classement des 15 arrêts les plus fréquentés
-   - Valeurs affichées
+1. **heatmap_temporel.png** (150KB) - Heatmap jour × heure
+2. **distribution_horaire.png** (309KB) - Distribution 24h avec zones de rush
+3. **top_lignes.png** (173KB) - Top 15 lignes les plus fréquentées
+4. **top_arrets.png** (207KB) - Top 15 arrêts les plus fréquentés
+5. **heatmap_ligne_heure.png** (169KB) ⭐ - Heatmap 2D Ligne × Heure
+6. **scatter_geo_frequentation.png** (1.4MB) ⭐ - Scatter géographique pondéré (Top 800 arrêts)
+7. **graphique_types.png** (194KB) ⭐ - Répartition par type de transport (Bus/Tramway/Ferry)
+8. **distribution_geographique.png** (175KB) ⭐ - Distributions latitude/longitude
 
 ### 🌐 Visualisations Interactives (HTML)
-Ouvrir dans un navigateur web
+**Total: 5 cartes/dashboards** - Ouvrir dans un navigateur web
 
-1. **carte_interactive.html** (183KB)
-   - Carte Folium de Bordeaux
-   - Heatmap géographique de la fréquentation
-   - Top 50 arrêts avec marqueurs cliquables
-   - Zoom et navigation interactifs
+1. **carte_interactive_tous_arrets.html** (5.3MB) ⭐
+   - Carte Folium avec TOUS les 3,957 arrêts
+   - Clusters intelligents avec couleurs par fréquentation (rouge/orange/bleu)
+   - Popups détaillés sur chaque arrêt
 
-2. **dashboard_horaire.html** (4.7MB)
-   - Graphique Plotly de la distribution horaire
+2. **carte_chaleur.html** (115KB) ⭐
+   - Heatmap pure de la fréquentation
+   - Gradient 6 couleurs (bleu → rouge)
+   - Légende intégrée
+
+3. **dashboard_horaire.html** (4.7MB)
+   - Graphique Plotly interactif de la distribution horaire
    - Zoom, pan, export d'image
-   - Tooltips au survol
+
+4. **dashboard_lignes.html** (4.7MB)
+   - Top 20 lignes interactif avec Plotly
 
 3. **dashboard_lignes.html** (4.7MB)
    - Barres interactives des top 20 lignes
@@ -191,11 +189,9 @@ Voir [recommandations.txt](recommandations.txt) pour les détails complets.
 
 Pour toute question sur l'utilisation:
 - Consulter le [README.md](README.md) principal
-- Examiner les logs dans `analysis.log`
 - Explorer le code source dans `src/`
 
 ---
 
-**Projet réalisé avec succès le 06/03/2026**
 
 *Analyse des dynamiques de mobilité urbaine à Bordeaux - TBM*
