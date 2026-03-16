@@ -21,6 +21,7 @@ from src.data_loader import GTFSDataLoader
 from src.preprocessor import GTFSPreprocessor
 from src.analyzer import MobilityAnalyzer
 from src.visualizer import MobilityVisualizer
+from src.predictor import MobilityPredictor
 from src.config import OUTPUT_PATH
 
 # Configuration du logging
@@ -232,14 +233,21 @@ def main():
 
         # Étape 4: Visualisations
         logger.info("\n" + "="*80)
-        logger.info("ÉTAPE 4/5: CRÉATION DES VISUALISATIONS")
+        logger.info("ÉTAPE 4/6: CRÉATION DES VISUALISATIONS")
         logger.info("="*80)
         visualizer = MobilityVisualizer(data_enriched, analysis_results)
         visualizer.create_all_visualizations()
 
-        # Étape 5: Recommandations et rapport
+        # Étape 5: Modélisation prédictive
         logger.info("\n" + "="*80)
-        logger.info("ÉTAPE 5/5: GÉNÉRATION DES RECOMMANDATIONS ET RAPPORT")
+        logger.info("ÉTAPE 5/6: MODÉLISATION PRÉDICTIVE")
+        logger.info("="*80)
+        predictor = MobilityPredictor(data_enriched, OUTPUT_PATH)
+        prediction_results = predictor.run_all_predictions()
+
+        # Étape 6: Recommandations et rapport
+        logger.info("\n" + "="*80)
+        logger.info("ÉTAPE 6/6: GÉNÉRATION DES RECOMMANDATIONS ET RAPPORT")
         logger.info("="*80)
         recommendations = analyzer.generate_recommendations()
         save_recommendations(recommendations)

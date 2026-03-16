@@ -1,0 +1,34 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Introduction et Problématique}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Problématique}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Questions Spécifiques}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Objectifs du Projet}{2}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Données Utilisées}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Source des Données}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Fichiers GTFS chargés}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Statistiques Globales des Données}{3}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Méthodologie}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Architecture du Projet}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Pipeline de Traitement}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Pré-traitement des Données}{4}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Résultats de l'Analyse Exploratoire}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Analyse Temporelle}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Analyse des Lignes}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Analyse des Arrêts}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Analyse Géographique}{10}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Types de Transport}{12}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Visualisations Interactives}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Détails des visualisations interactives}{13}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Modélisation Prédictive}{15}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Préparation des Features}{15}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Comparaison des Modèles}{15}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Prédictions vs Réalité}{16}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Importance des Variables}{18}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Prédictions Horaires}{18}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Recommandations}{20}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Optimisation Temporelle}{20}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Équilibrage du Réseau}{20}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Amélioration de l'Infrastructure}{20}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Rationalisation des Arrêts}{20}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Limites de l'Analyse}{21}{section.8}%
+\contentsline {section}{\numberline {9}Conclusion}{22}{section.9}%

@@ -10,7 +10,12 @@
       "Bash(read:*)",
       "Bash(if [[ $REPLY =~ ^[Yy]$ ]])",
       "Bash(then)",
-      "Bash(fi)"
+      "Bash(fi)",
+      "Bash(git commit:*)",
+      "Bash(git fetch:*)",
+      "Bash(git push:*)",
+      "Bash(git lfs migrate:*)",
+      "Bash(git stash:*)"
     ]
   }
 }
